@@ -1,0 +1,138 @@
+/**Color palette:
+Gunmetal: #2B2D42;
+Gray-blue: #8D99AE;
+Anti-flash white: #EDF2F4;
+Red(pantone): #EF233C;
+---------------------------**/
+
+/**General styles------------------**/
+html {
+  box-sizing: border-box;
+  width: 100%;
+}
+
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body {
+  background-color: #8D99AE;
+}
+
+h1{
+  font-family: 'Fredoka One', cursive;
+  color: #2B2D42;
+}
+
+h3 {
+  font-family: 'Satisfy', cursive;
+  color: #8D99AE;
+}
+
+p {
+  font-family: 'Roboto Condensed', sans-serif;
+}
+
+small {
+  color: #EF233C;
+  font-weight: 600;
+  font-family: 'Chewy', cursive;
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+/**Header-------------------------**/
+.navbar-default {
+  background-color: #2B2D42;
+}
+
+.navbar-default .navbar-nav li a {
+  text-decoration: none;
+  color: #EDF2F4;
+}
+
+.navbar-default .navbar-nav li a:hover, a:focus {
+  background-color: #EDF2F4;
+  color: #2B2D42;
+}
+
+.navbar-default .navbar-brand {
+  color: #8D99AE;
+}
+
+.navbar-default .navbar-brand:hover {
+  color: #EDF2F4;
+}
+
+.active {
+  background-color: #EDF2F4 !important;
+  color: #2B2D42 !important;
+}
+
+/**Footer---------------------------**/
+#footer {
+  background-color: #2B2D42;
+  color: #EDF2F4;
+  display: block;
+  margin: 0;
+  width: 100%;
+  overflow: hidden;
+  padding: 70px;
+  margin-top: 50px;
+}
+
+.contact-info {
+  font-family: 'Chewy', cursive;
+  color: #EF233C;
+  font-size: 15px;
+  text-decoration: none;
+}
+
+/**Panels----------------------------**/
+.panel {
+  background-color: #EDF2F4;
+  color: #2B2D42;
+}
+
+.panel-body{
+  box-shadow: 1em 1em 1em grey;
+  text-decoration: none;
+  align-items: center;
+}
+
+/**Form-----------------------------**/
+.btn #createButton {
+  text-align: center;
+  padding: 10px;
+  margin-left: 20px;
+}
+
+label {
+  font-family: 'Roboto Condensed', sans-serif;
+  font-weight: 800;
+  color: #2B2D42;
+}
+
+/**Movie details--------------------------**/
+
+#movieDetails {
+  background-color: #EDF2F4;
+  padding: 40px;
+  border-radius: 10%;
+}
+
+/* Media queries ------------------------- */
+
+@media screen and (min-width: 770px) {
+    .panel-body {
+      min-height: 700px;
+    }
+}
+
+@media screen and (min-width: 993px) {
+    .panel-body {
+      min-height: 500px;
+    }
+}
